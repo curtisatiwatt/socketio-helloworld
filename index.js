@@ -18,7 +18,7 @@ io.on('connection', (socket) => {
     console.log('A user connected');
 
     // Send a "Hello World" message to the client
-    socket.emit('message', 'Hello World from socket.io!');
+    socket.emit('message', 'Hello World from socket.io node.js backend!');
 
     // Listen for messages from the client
     socket.on('message', function incoming(message) {
