@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  socketio-helloworld:
+    image: ghcr.io/curtisatiwatt/socketio-helloworld:latest
+    ports:
+      - "5000:5000"
+    restart: always
