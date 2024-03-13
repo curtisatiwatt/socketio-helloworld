@@ -22,7 +22,7 @@ npm install
 ```
 4. Run the project with node
 ```bash
-node index.js`
+node index.js
 ```
 5. Open your browser and navigate to `http://localhost:5000` to see the "Hello World" express.js HTML message.
 6. Go to Postman and add a new Socket.io connection to `http://localhost:5000`, add and enable a `message` event to see the `Hello World from socket.io node.js backend!` message.
@@ -52,9 +52,9 @@ docker run -p 5000:5000 ghcr.io/curtisatiwatt/socketio-helloworld:latest
 ### Running with Docker Compose
 
 You can run this project using Docker Compose as well. 
-1. Clone the repository
+1. Clone and cd into the repository
 ```bash
-git clone https://github.com/curtisatiwatt/socketio-helloworld.git
+git clone https://github.com/curtisatiwatt/socketio-helloworld.git && cd socketio-helloworld
 ```
 2. Run the project with Docker Compose
 ```bash
